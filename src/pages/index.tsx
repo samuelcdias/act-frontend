@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Input } from "../common/components/Input";
+import { InputStyled } from "../common/components/Input";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1>Teste</h1>
-        <Input name="Teste" />
+        <InputStyled name="teste" />
       </main>
 
       <footer className={styles.footer}>
